@@ -2,7 +2,6 @@
 
 ## Deploying
 Sign in with your Github account and fork this repo.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbirHasan2005/docker-ubuntu-xrdp-mate-custom-VCPB)
 
 * Go here [Zeet](https://zeet.co/)
 * Sign into Zeet with your Github account
