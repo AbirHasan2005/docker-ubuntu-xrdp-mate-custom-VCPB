@@ -17,7 +17,7 @@
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
       "value": "ANYTHING"
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
       "value": "",
       "required": true
@@ -32,22 +32,33 @@
       "value": "",
       "required": true
     },
-    "AUTH_USERS": {
+    "SUDO_USERS": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
       "value": "715779594 ",
       "required": false
     },
-    "FINISHED_PROGRESS_STR": {
-      "description": "Should be a single character.",
+    "GROUP": {
+      "description": "Should be a ",
       "required": false
     },
-    "UN_FINISHED_PROGRESS_STR": {
-      "description": "Should be a single character.",
-      "required": false
+    "MONGO_DB_URI": {
+      "description": "Should be a ",
+      "required": false,
+      "value: ""
     },
-    "BOT_USERNAME": {
+    "USERS_MUST_JOIN": {
+      "description": "Your Bot",
+      "value": "True",
+      "required": true
+    },
+    "LANG": {
+      "description": "Your Bot",
+      "value": "en",
+      "required": true
+    },
+    "DUR_LIMIT": {
       "description": "Your Bot Username. Without `@` before Username!",
-      "value": "",
+      "value": "10",
       "required": true
     }
   },
